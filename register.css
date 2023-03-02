@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url("login-backgrouns.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 40px;
+    color:#000
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+.label{
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: bold;
+    color:#000;
+}
+.form-control{
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid white;
+    font-size:21px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+small{
+    font-size: 18px;
+    color:#000;
+
+}
+
+option{
+    color: #666;
+}
+
+.btn-info{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 100px;
+    font-size: 19px;
+    border-radius: 100px;
+}
+
+.col-md-6{
+    background:rgba(0,0,0,0.4) ;
+    height: 960px;
+    box-shadow: -1px 1px 60px 10px black inset;
+}
+.container{
+    margin-top: 20px;
+}

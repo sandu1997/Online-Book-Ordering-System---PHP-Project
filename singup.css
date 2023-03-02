@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("nature.jpg");
+    -webkit-background-size:cover;
+    font-family: poppins;
+
+}
+.wrapper{
+    width:400px;
+    height:420px;
+    color:#000;
+    top:50%;
+    left:50%;
+    padding:60px 30px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    font-size: 30px;
+    color:#000;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: courgette;
+
+}
+.wrapper input{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.wrapper input[type=text],.wrapper input[type=password]{
+    border:red;
+    border-bottom:1px solid #ddd ;
+    background: transparent;
+    outline:#000;
+    height: 30px;
+    font-size: 18px;
+    opacity:1 ;
+    color: #000;
+}
+
+.wrapper input[type=submit]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #f6648b;
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrapper input[type=submit]:hover{
+    cursor:pointer;
+
+}
+
+.wrapper a{
+    font-size: 16px;
+    text-decoration:underline;
+    color: #000;
+    opacity:1;
+}
+
+.wrapper a{
+    color:#000;
+    opacity: 0.8;
+}
+.bottom-text{
+    color: #000;
+}
+
+.bottom-text input{
+    width:10%;
+    float:left;
+}
+
+.bottom-text a{
+    float:right;
+
+}
+
+
+
+
